@@ -51,7 +51,6 @@ export function OptimizedImage({
     height = 600,
     quality = 85,
     placeholder = 'blur',
-    blurDataURL,
   } = imageConfig;
 
   // Use fallback if provided and error occurred
@@ -78,7 +77,6 @@ export function OptimizedImage({
     quality,
     priority: priority || imageConfig.priority,
     placeholder,
-    blurDataURL,
     sizes,
     fill,
     className: `${className} ${objectFit === 'cover' ? 'object-cover' : 
