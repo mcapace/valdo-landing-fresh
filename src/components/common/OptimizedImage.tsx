@@ -75,7 +75,7 @@ export function OptimizedImage({
     width: fill ? undefined : width,
     height: fill ? undefined : height,
     quality,
-    priority: priority || imageConfig.priority,
+    priority: priority,
     placeholder,
     sizes,
     fill,
